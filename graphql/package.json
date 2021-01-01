@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a Koa and GraphQL backend for react blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jamalderrick6/React-Blog.git"
+  },
+  "author": "Jamal Derrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamalderrick6/React-Blog/issues"
+  },
+  "homepage": "https://github.com/jamalderrick6/React-Blog#readme",
+  "dependencies": {
+    "apollo-server-koa": "^2.19.1",
+    "graphql-tools": "^7.0.2",
+    "koa": "^2.13.0",
+    "moment": "^2.29.1"
+  }
+}
