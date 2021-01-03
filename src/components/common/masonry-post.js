@@ -1,8 +1,6 @@
 import React from 'react'
 import {TagRow} from './'
 
-const images = require.context('../../assets/images', true)
-
 export default function MasonryPost({ post, tagsOnTop }) {
     const windowWidth = window.innerWidth
     const imageBackground = {backgroundImage: `url("${require(`../../assets/images/${post.image}`).default}")`};

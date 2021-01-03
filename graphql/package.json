@@ -4,7 +4,9 @@
   "description": "a Koa and GraphQL backend for react blog",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "create-migration": "node ./database/actions/create-migration.js",
+    "run-migration": "node ./database/actions/run-migration.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +20,12 @@
   "homepage": "https://github.com/jamalderrick6/React-Blog#readme",
   "dependencies": {
     "apollo-server-koa": "^2.19.1",
+    "bluebird": "^3.7.2",
+    "dotenv": "^8.2.0",
     "graphql-tools": "^7.0.2",
+    "knex": "^0.21.15",
     "koa": "^2.13.0",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5"
   }
 }
